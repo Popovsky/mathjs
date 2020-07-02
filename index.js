@@ -1,6 +1,8 @@
 'use strict';
 
-const a = 10, b = 3;
-const result =  a % b;
+const a = Number(prompt('Enter the number'));
+const b = Number(prompt('Enter the number'));
 
-console.log(result);
+if (a % b) {
+    console.log(`Делится с остатком: ${a} % ${b} = ${a % b}`);
+} else console.log(`Делится: ${a} / ${b} = ${a / b}`);
