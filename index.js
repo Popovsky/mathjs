@@ -1,3 +1,3 @@
 'use strict';
 
-const st = Math.pow(2, 10);
+const sqrt = Math.sqrt(245);
