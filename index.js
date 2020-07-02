@@ -1,7 +1,5 @@
 'use strict';
 
-const num = 587;
-const obj = {
-    floor: Math.floor(Math.sqrt(num)),
-    ceil: Math.ceil(Math.sqrt(num)),
-};
+const arrOfNum = [4, -2, 5, 19, -130, 0, 10];
+const minNum = Math.min(...arrOfNum);
+const maxNum = Math.max(...arrOfNum);
