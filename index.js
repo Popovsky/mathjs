@@ -1,10 +1,8 @@
 'use strict';
 
-const arr = [12, 15, 20, 25, 59, 79];
-let sum = 0;
+const num = Number(prompt('Enter the number'));
+let factorial = 1;
 
-for (let i = 0; i < arr.length; i++) {
-    sum += arr[i];
+for (let i = 2; i <= num; i++) {
+    factorial *= i;
 }
-
-const average = sum / arr.length;
